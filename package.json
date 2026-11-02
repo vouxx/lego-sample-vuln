@@ -1,0 +1,6 @@
+{
+  "name": "lego-sample-vuln",
+  "private": true,
+  "description": "레고 보안 점검기 탐지율 측정용 샘플. 일부러 취약하게 만든 코드라 실행하거나 배포하지 마세요.",
+  "dependencies": { "next": "16.0.0", "react": "19.0.0", "@supabase/supabase-js": "2.50.0", "@anthropic-ai/sdk": "1.0.0", "stripe": "18.0.0", "pg": "8.13.0" }
+}
