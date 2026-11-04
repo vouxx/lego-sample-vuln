@@ -1,4 +1,4 @@
-// 링크 미리보기는 정해진 렌더 서버에만 요청한다(느슨 엄격도 확인).
+// 링크 미리보기는 정해진 렌더 서버에만 요청한다(엄격 엄격도 확인).
 export async function POST(req: Request) {
   const { url } = await req.json();
   // @ts-ignore
